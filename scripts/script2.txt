@@ -1,0 +1,11 @@
+curl -X GET \
+  'https://fyle-backend-coding-test.herokuapp.com/branches?limit=10&offset=26&bank=AXIS%20BANK&city=DELHI' \
+  -H 'Accept: */*' \
+  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJuYW1lIjoiYWRtaW4ifSwiaWF0IjoxNTYxMjEyMDc4LCJleHAiOjE1NjE2NDQwNzh9.or6Vrku5ce-erSyMvURV7ZaWua9M69ketqSzK0_-S_Q' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Connection: keep-alive' \
+  -H 'Host: fyle-backend-coding-test.herokuapp.com' \
+  -H 'Postman-Token: b016392d-7708-42d0-8f45-fd369bba8156,848a24d1-dd52-4f25-9ce9-08465da14d38' \
+  -H 'User-Agent: PostmanRuntime/7.15.0' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'cache-control: no-cache'
